@@ -21,7 +21,12 @@ header {
 
 body {
     margin:0;
-    padding:0
+    padding:0;
+  }
+
+  footer {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: var(--cream);
   }
 
 a:link {
@@ -103,6 +108,7 @@ li{
 }
 
 @media(max-width:1024px){
+  
   .hamburger{
     display: block;
   }
@@ -128,6 +134,7 @@ li{
   }
 
   .menuContainer.active {
+    position: absolute;
     width: 100vw;
     height: 100vh;
     grid-template-rows: repeat(1fr);
@@ -173,3 +180,48 @@ li{
  to   { opacity: 1; }
 }
   }
+
+  .footerContainer {
+    display: grid; 
+    grid-template-columns: 2fr 1fr 2fr; 
+    grid-template-rows: 0.5fr 0.5fr 0.1fr; 
+    gap: 12px 30px; 
+    grid-template-areas: 
+      ". . ."
+      ". . ."
+      ". . ."; 
+
+    justify-items: center; 
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%   ;
+  }
+
+  .footerContentMain {
+    text-align: center;
+  }
+
+  .footerCredit {
+    text-align: center;
+  }
+
+  .footerCredit :nth-child(2)  {
+    font-size: 0.8rem;
+    color: var(--turquoise);
+  }
+
+ .soMeIcon {
+  width: 20%;
+ }
+ 
+ .footerContentMain > .footerBold {
+font-weight: bold;
+ }
+
+ .heroContent {
+height: 100vh;
+background-image: url(medialibrary/frontpage/frontHero.png);
+background-repeat: no-repeat;
+background-size: cover;
+ }
