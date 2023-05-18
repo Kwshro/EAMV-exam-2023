@@ -483,3 +483,38 @@ background-size: cover;
         margin-bottom: 2rem;
       }
       }
+
+      .contactContainer {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .contactContainer > div {
+      width: 50%;
+      height: 35vh;
+      }
+
+      .contactContainer > :nth-child(1) {
+        background-image: url(medialibrary/contact/tetriscontact.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      @media(max-width:1024px) {
+        .contactContainer {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          height: 116vh;
+        }
+        .contactContainer > div {
+          width: 100%;
+          }
+
+          .contactContainer > div:not(.klaviyo-form-UeqhP4) {
+            height: 25%;
+          }
+
+        }
