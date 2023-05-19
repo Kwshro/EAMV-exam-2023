@@ -100,6 +100,10 @@ li{
   background-color: var(--red);
 }
 
+.hideMenu.active {
+  display: none;
+}
+
 @media(max-width:1024px){
   
   .hamburger{
@@ -147,11 +151,6 @@ li{
       -o-animation: fadein 0.5s; /* Opera < 12.1 */
          animation: fadein 0.5s;
 }
-
-.hideMenu.active {
-  display: none;
-}
-
 
 @keyframes fadein {
  from { opacity: 0; }
@@ -600,7 +599,7 @@ background-size: cover;
           @media(max-width:1024px) {
             #image-track > .image {
               width: 60vmin;
-              height: 75vmin;
+              height: 90vmin;
               object-fit: cover;
               object-position: 100% center;
               padding: 2rem;
@@ -619,17 +618,16 @@ background-size: cover;
 
           @media only screen and (min-width:665px) and (max-height:1050px){
             #image-track > .image {
-              height:100vmin;
+              height: 90vmin;
             }
 
             #image-track{
-              padding-top: 12rem;
+              padding-top: 14rem;
             }
 
             .verticalText {
              padding-right: 1rem;
             }
 
-            
-          }
+            }
 
