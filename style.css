@@ -544,6 +544,11 @@ background-size: cover;
 
           }
 
+          .contactContainer > div > h1 {
+            text-align: center;
+            color: white;
+          }
+
           /* Games subpage*/
 
           .galleryContainer {  display: grid;
@@ -562,11 +567,6 @@ background-size: cover;
               position: relative;
 
               height: 66vh;
-          }
-
-          .contactContainer > div > h1 {
-            text-align: center;
-            color: white;
           }
 
           /*Position:relativ i elementet over gør sådan at overflow:hidden virker - FJERN IKKE -  */
@@ -601,6 +601,18 @@ background-size: cover;
             margin-top: 1rem;
           }
         
+          @media(min-width:2500px) {
+            .galleryContainer {
+              height: 72vh;
+            }
+          }
+
+          @media(max-width:1800px) {
+            
+            #image-track > img:nth-child(1){
+              display:none;
+            }
+          }
 
           @media(max-width:1024px) {
             #image-track > .image {
@@ -610,7 +622,6 @@ background-size: cover;
               object-position: 100% center;
               padding: 2rem;
             }
-
             
           .verticalText {
             margin-top: 2rem;
@@ -692,9 +703,6 @@ background-size: cover;
               padding: 1rem;
             }
 
-            .aboutContainer > span:nth-child(4) {
-              background-color: var(--grey);
-            }
 
             .aboutContainer > span:nth-child(2) > div:nth-child(1) {
               background-image: url(medialibrary/aboutus/david_rocovits.jpg);
