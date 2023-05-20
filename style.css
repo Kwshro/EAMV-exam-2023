@@ -52,6 +52,7 @@ li{
 
 
 /* specifikke styles */
+/* index */
 
 .headerContainer {
   display: grid;
@@ -103,6 +104,8 @@ li{
 .hideMenu.active {
   display: none;
 }
+
+/* mindre skærme */
 
 @media(max-width:1024px){
   
@@ -182,6 +185,7 @@ li{
 }
   }
 
+/* footer */
 
   .footerContainer {
     display: grid; 
@@ -221,6 +225,8 @@ li{
 font-weight: bold;
  }
 
+ /* index hovedcontent */
+ 
  .heroContent {
 height: 70vh;
 background-image: url(medialibrary/frontpage/frontHero.jpg);
