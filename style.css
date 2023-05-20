@@ -618,7 +618,7 @@ background-size: cover;
           }
 
           .gamesText {
-           text-align: center;
+            text-align: initial;
            padding: 2rem;
           }
 
@@ -634,6 +634,8 @@ background-size: cover;
             .verticalText {
              padding-right: 1rem;
             }
+
+            
             }
 
             .gamesTextContainer {
@@ -642,7 +644,9 @@ background-size: cover;
               align-items: center;
               padding-bottom: 5rem;
               padding-top: 2rem;
-              text-align: center;
+              text-align: initial;
+              padding-left: 25rem;
+              padding-right: 25rem;
             }
 
             .gamesButton > input{
@@ -675,12 +679,12 @@ background-size: cover;
                 justify-items: center; 
                 padding-top:6rem ;
                 padding-bottom: 6rem;
+                
             }
 
 
             .aboutContainer > span:nth-child(2),
             .aboutContainer > span:nth-child(4) {
-              text-align: center;
               display: flex;
               flex-direction: column;
               justify-content: center;
@@ -703,6 +707,13 @@ background-size: cover;
             }
 
           @media(max-width:1024px) {
+
+            .gamesTextContainer {
+              padding-left: 1rem;
+              padding-right: 1rem;
+            }
+
+
             .aboutContainer { 
               display: grid;
               grid-template-columns: 1fr;
