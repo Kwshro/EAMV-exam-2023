@@ -634,8 +634,8 @@ background-size: cover;
             .verticalText {
              padding-right: 1rem;
             }
-
             }
+
             .gamesTextContainer {
               display: flex;
               flex-direction: column;
@@ -663,3 +663,73 @@ background-size: cover;
               letter-spacing: 0.15em;
               color: var(--red);
             }
+
+            .aboutContainer {  display: grid;
+              grid-template-columns: 0.2fr 2.3fr 0.2fr 2.3fr 0.2fr;
+              grid-template-rows: 3.1fr;
+              grid-auto-columns: 1fr;
+              gap: 0px 0px;
+              grid-auto-flow: row;
+              grid-template-areas:
+                ". . . . .";
+                justify-items: center; 
+                padding-top:6rem ;
+                padding-bottom: 6rem;
+            }
+
+
+            .aboutContainer > span:nth-child(2),
+            .aboutContainer > span:nth-child(4) {
+              text-align: center;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              padding: 1rem;
+            }
+
+            .aboutContainer > span:nth-child(4) {
+              background-color: var(--grey);
+            }
+
+            .aboutContainer > span:nth-child(2) > div:nth-child(1) {
+              background-image: url(medialibrary/aboutus/david_rocovits.jpg);
+              background-repeat: no-repeat;
+              background-size:contain;
+
+              
+              width: 40rem;
+              height: 40rem;
+            }
+
+          @media(max-width:1024px) {
+            .aboutContainer { 
+              display: grid;
+              grid-template-columns: 1fr;
+              grid-template-rows: 0.1fr 0.5fr 0.1fr 1fr 0.1fr;
+              grid-auto-columns: 1fr;
+              gap: 0px 0px;
+              grid-auto-flow: row;
+              justify-items: center; 
+              padding:2rem;
+              grid-template-areas:
+                "."
+                "."
+                "."
+                "."
+                ".";
+            }
+
+            .aboutContainer > span:nth-child(2) > div:nth-child(1) {              
+              width: 100%;
+              height: 20rem;
+            }
+            .aboutSpecial {
+              display: flex;
+            }
+            .aboutSpecial > div {
+              align-items: center;
+            }
+            
+
+          }
