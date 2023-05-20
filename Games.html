@@ -30,11 +30,11 @@
   </head>
 
 <body>
-  <header>
+  <header role="banner">
    <div class="headerContainer">
       <span></span>
       <span>
-         <a href="index.html"> <img src="Gamesaru_Logo.png"> </a>
+         <a href="index.html"> <img src="Gamesaru_Logo.png" alt="The Gamesaru logo"> </a>
       </span>
       <span class="burger">
          <div class="hamburger">
@@ -56,7 +56,7 @@
    </div>
  </header>
 
- <main class="hideMenu">
+ <main class="hideMenu" role="main">
    <div class="galleryContainer">
       <span></span>
       <span>
@@ -66,25 +66,25 @@
       <span></span>
       <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
          <p class="verticalText"> Space invaders </p>
-         <img class="image" src="medialibrary/games/alexandra-avelar-Q5Z5zB8LZwY-unsplash.jpg" draggable="false">
+         <img class="image" src="medialibrary/games/alexandra-avelar-Q5Z5zB8LZwY-unsplash.jpg" draggable="false" alt="A man standing infront of an arcade machine">
 
          <p class="verticalText"> Super Mario </p>
-         <img class="image" src="medialibrary/games/matt-chris-pua-_aSOc5RT-8U-unsplash.jpg" draggable="false">
+         <img class="image" src="medialibrary/games/matt-chris-pua-_aSOc5RT-8U-unsplash.jpg" draggable="false" alt="A retro arcade lit in pink neon light">
 
          <p class="verticalText"> Street Fighter II </p>
-         <img class="image" src="medialibrary/games/rafael-hoyos-weht-DsqHgaagUYY-unsplash.jpg" draggable="false">
+         <img class="image" src="medialibrary/games/rafael-hoyos-weht-DsqHgaagUYY-unsplash.jpg" draggable="false" alt="An old japanese arcade with a street fighter 2 poster">
 
          <p class="verticalText"> Blast City </p>
-         <img class="image" src="medialibrary/games/senad-palic-1JFvzoa1BU4-unsplash.jpg" draggable="false">
+         <img class="image" src="medialibrary/games/senad-palic-1JFvzoa1BU4-unsplash.jpg" draggable="false" alt="Up close screen of an arcades CRT screen with pink lighting">
 
          <p class="verticalText"> Ms. Pac-man </p>
-         <img class="image" src="medialibrary/games/teo-zac-V4PxSjm3BJg-unsplash.jpg" draggable="false">
+         <img class="image" src="medialibrary/games/teo-zac-V4PxSjm3BJg-unsplash.jpg" draggable="false" alt="Mrs. Pacman arcade cab controls">
 
          <p class="verticalText"> Pac-man </p>
-         <img class="image" src="medialibrary/games/shark-ovski-jZ9TPXjoZQk-unsplash.jpg" draggable="false">
+         <img class="image" src="medialibrary/games/shark-ovski-jZ9TPXjoZQk-unsplash.jpg" draggable="false" alt="A mural of the ghosts from Pac-man">
 
          <p class="verticalText"> Blast City </p>
-         <img class="image" src="medialibrary/games/senad-palic-Qcefx5xENeA-unsplash.jpg" draggable="false">
+         <img class="image" src="medialibrary/games/senad-palic-Qcefx5xENeA-unsplash.jpg" draggable="false" alt="An anime style girl on an arcades CRT screen">
 
       </div>
       <span></span>
@@ -92,17 +92,48 @@
       <span></span>
        <span></span>
    </div>
-   <div class="gamesText">
-      <h2 >At Gamesaru, you can indulge in a diverse selection of arcade gaming experiences</h2>
-      <p>combining the best of both new and retro worlds. Immerse yourself in the rhythm-based challenges of pop'n music, <br>
-          tapping along to infectious beats and vibrant visuals. Engage in epic battles with iconic characters in Street Fighter II, <br>
+   <div class="gamesTextContainer">
+      <div></div>
+      <div>
+         <form action="medialibrary/games/gamesaru_saleslist.pdf" class="gamesButton" role="button">
+            <input type="submit" value="See sales list">
+         </form>
+  </div>
+       <div class="gamesText">
+      <h2 >At Gamesaru, you can indulge in a diverse selection of arcade gaming experiences!</h2>
+      <h3>Combining the best of both new and retro worlds.</h3>
+         
+         <br>
+         Immerse yourself in the rhythm-based challenges of pop'n music, <br>
+          tapping along to infectious beats and vibrant visuals.
+          <br>
+          <br>
+          Engage in epic battles with iconic characters in Street Fighter II, <br>
            honing your skills to become the ultimate champion. Whether you're craving the nostalgia of Pac-Man's maze-chasing frenzy, <br>
             or the adrenaline rush of Dance Dance Revolution's foot-stomping frenzy, Gamesaru has something for everyone, ensuring hours <br>
             of entertainment and unforgettable arcade memories</p>
+
+            <p>
+               Our arcades are not only for rent to private convention centers, but purchaseable for private individuals. <br>
+               Gamesaru is one of the leading arcade game importers in the USA, and we pride ourselves in importing high quality games <br>
+               from Japan, so if you have any specific cab you'd be interested in be sure to give us a call as we are <br>
+               always very happy to be of service.
+            </p>
+     </div>
+     <div class="gamesText"> 
+      <h3> Embark on a mesmerizing musical journey with the Hatsune Miku arcade games at Gamesaru.</h3>
+            <p>
+            Step into the virtual world where the iconic Vocaloid comes to life, as you groove to catchy tunes and control the rhythm with your fingertips. <br>
+            Experience the magic of Hatsune Miku and her friends in immersive arcade gameplay at various large conventions across the USA, <br>
+             where you can join fellow fans, test your skills, and discover even more exciting arcade gaming experiences. <br>
+             <br>
+              <b>Gamesaru will join you at the largest video game and anime conventions in the USA, be sure to catch us there!</b>
+            </p>
          </div>
+   </div>
  </main>
 
- <footer class="hideMenu">
+ <footer class="hideMenu" role="contentinfo">
    <div class="footerContainer">
       <span class="footerContentMain">
          <p class="footerBold"> Need help?</p>
@@ -121,9 +152,9 @@
          <span class="footerContentMain">
             <br>
             <br>
-            <a href="https://twitter.com/na_gamesaru?"> <img src="someicon/twitterLogo.png" class="soMeIcon"> </a>
-            <a href="https://www.facebook.com/gamesaru"> <img src="someicon/facebookLogo.png" class="soMeIcon"> </a>
-            <a href="https://www.youtube.com/c/GameSaru"> <img src="someicon/youtubeLogo.png" class="soMeIcon"> </a>
+            <a href="https://twitter.com/na_gamesaru?"> <img src="someicon/twitterLogo.png" class="soMeIcon" alt="Twitter icon"> </a>
+            <a href="https://www.facebook.com/gamesaru"> <img src="someicon/facebookLogo.png" class="soMeIcon" alt="Facebook icon"> </a>
+            <a href="https://www.youtube.com/c/GameSaru"> <img src="someicon/youtubeLogo.png" class="soMeIcon" alt="Youtube icon"> </a>
          </span>
             <span></span>
             <span class="footerCredit">

@@ -223,7 +223,7 @@ font-weight: bold;
 
  .heroContent {
 height: 70vh;
-background-image: url(medialibrary/frontpage/frontHero.png);
+background-image: url(medialibrary/frontpage/frontHero.jpg);
 background-repeat: no-repeat;
 background-size: cover;
  }
@@ -352,7 +352,7 @@ background-size: cover;
 }
 
 .secondTitle :nth-child(1) {
-  color: var(--turquoise);
+  color: var(--red);
   font-size: small;
 }
 .secondTitle :nth-child(2) {
@@ -370,7 +370,7 @@ background-size: cover;
 }
 .secondContentLeft > div {
   width: inherit; height: inherit;
-  background-image: url(medialibrary/frontpage/arcadeorange.png);
+  background-image: url(medialibrary/frontpage/arcadeorange.jpg);
 
 }
 
@@ -382,7 +382,7 @@ background-size: cover;
 
 .secondContentRight > div {
   width: inherit; height: inherit;
-  background-image: url(medialibrary/frontpage/spaceinvader.png);
+  background-image: url(medialibrary/frontpage/spaceinvader.jpg);
 }
 
  .frontSecondContent {
@@ -454,7 +454,7 @@ background-size: cover;
         align-content: center; 
         justify-items: center; 
         padding-top: 2rem;
-        background-image: url(medialibrary/frontpage/fontsecondimage.png);
+        background-image: url(medialibrary/frontpage/fontsecondimage.jpg);
         border: solid white 5rem;
     }
 
@@ -630,4 +630,30 @@ background-size: cover;
             }
 
             }
+            .gamesTextContainer {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              padding-bottom: 5rem;
+              padding-top: 2rem;
+              text-align: center;
+            }
 
+            .gamesButton > input{
+              padding: 1.2rem 2.5rem;
+              text-transform: uppercase;
+              border: none;
+              font-size: 0.8rem;
+            
+              letter-spacing: 1px;
+              -webkit-transition: all .3s ease-in;
+              -moz-transition: all .3s ease-in;
+              -ms-transition: all .3s ease-in;
+              -o-transition: all .3s ease-in;
+              transition: all .3s ease-in;
+            }
+            
+            .gamesButton > input:hover {
+              letter-spacing: 0.15em;
+              color: var(--red);
+            }
