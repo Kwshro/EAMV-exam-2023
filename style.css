@@ -377,6 +377,8 @@ background-size: cover;
 .secondContentLeft > div {
   width: inherit; height: inherit;
   background-image: url(medialibrary/frontpage/arcadeorange.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
@@ -389,6 +391,8 @@ background-size: cover;
 .secondContentRight > div {
   width: inherit; height: inherit;
   background-image: url(medialibrary/frontpage/spaceinvader.jpg);
+  background-repeat: no-repeat;
+background-size: cover; 
 }
 
  .frontSecondContent {
