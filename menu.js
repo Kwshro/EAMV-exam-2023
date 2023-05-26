@@ -19,3 +19,7 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
   navMenu.classList.remove("active");
   hideMenu.classList.remove("active");
 }))
+
+/* inspiration & source
+https://medium.com/@mignunez/how-to-create-a-responsive-hamburger-menu-with-html-css-javascript-4dc10a45d3
+*/
