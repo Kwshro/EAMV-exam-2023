@@ -764,3 +764,55 @@ background-size: cover;
               padding: 10vh;
             }
           }
+          .eventsContainer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-left: 1rem;
+            padding-right: 1rem;
+          }
+
+          .eventsContainer > h1, h2 {
+            text-align: center;
+          }
+          .eventsContainer > p {
+            max-width: 50%;
+          }
+
+          
+
+          @media(max-width:1024px) {
+            .eventsContainer > p {
+              max-width: 98%;
+            }
+          }
+
+          .eventList {
+            display: flex;
+            padding: 2rem;
+          }
+
+
+          .eventPicture {
+            background-image: url(medialibrary/events/expo.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 20rem;
+          }
+
+          .eventSpacer {
+            padding: 7.1rem;
+          }
+
+          @media(max-width:1024px) {
+            .eventList {
+              display: flex;
+              flex-direction: column;
+            }
+
+            .eventSpacer {
+              padding: 2rem;
+            }
+            }
