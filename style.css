@@ -587,7 +587,7 @@ background-size: cover;
             transform: translate(0%, -50%); 
             user-select: none; 
             margin-top: 4rem;
-            padding: 4rem, 0, 4rem, 0;
+            padding: 4rem 0 4rem 0;
             overflow: visible;
           }
           
@@ -755,5 +755,12 @@ background-size: cover;
               align-items: center;
             }
             
-
+            .locationText {
+              display: flex;
+              flex-direction: column;
+            }
+            
+            .locaSpacer {
+              padding: 10vh;
+            }
           }
